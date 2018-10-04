@@ -23,8 +23,11 @@ QtKittiVisualizer/../kitti/2011_09_26/2011_09_26_drive_0001_sync/velodyne_points
 Use
 -----------
 cmake .
+
 make
+
 ./qt-kitti-visualizer --help  or
+
 ./qt-kitti-visualizer --dataset 0 (Data number should exist in dataset.)
 
 
