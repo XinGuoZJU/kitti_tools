@@ -17,19 +17,20 @@ Please refer http://blog.sina.com.cn/s/blog_1496fa80e0102ybq5.html to install.
 
 Data Structure
 -----------
-QtKittiVisualizer/../kitti/2011_09_26/2011_09_26_drive_0001_sync/velodyne_points/data
-
+```
+./
+    kitti/2011_09_26/2011_09_26_drive_0001_sync/velodyne_points/data
+    QtKittiVisualizer/
+```
 
 Use
 -----------
+```
 cmake .
-
 make
-
 ./qt-kitti-visualizer --help  or
-
 ./qt-kitti-visualizer --dataset 0 (Data number should exist in dataset.)
-
+```
 
 License
 -------
