@@ -12,13 +12,14 @@ It includes the *C++* part of the [raw data development kit](http://kitti.is.tue
 Dependencies
 -----------
 It is a tool based on *Qt*, the *PCL* and the *VTK*.
+
 Please refer http://blog.sina.com.cn/s/blog_1496fa80e0102ybq5.html to install.
 
 
 Data Structure
 -----------
 ```
-./
+../
     kitti/2011_09_26/2011_09_26_drive_0001_sync/velodyne_points/data
     QtKittiVisualizer/
 ```
