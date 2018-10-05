@@ -1,14 +1,14 @@
 # for label
 from parseTrackletXML import parseXML as pa
 
-filename = "/home/kimjongkook/Desktop/kitti/2011_09_26/2011_09_26_drive_0001_sync/tracklet_labels.xml"
+filename = "kitti/2011_09_26/2011_09_26_drive_0001_sync/tracklet_labels.xml"
 guoxin = pa(filename)
 
 # for data
 import pykitti
 import numpy as np
 
-basedir = '/home/kimjongkook/Desktop/kitti'
+basedir = 'kitti'
 date = '2011_09_26'
 drive = '0001'
 
