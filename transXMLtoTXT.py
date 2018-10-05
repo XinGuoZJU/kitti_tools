@@ -3,16 +3,17 @@ import os
 from parseTrackletXML import parseXML as pa
 
 
-path = "kitti"
+path = "../kitti/data"
 date = "2011_09_26"
-label_save_path = "label"
+label_save_path = "../kitti/label"
 
 for i in range(92):    # 0-91
     dirs = os.path.join(os.path.join(path, date), '2011_09_26_drive_' + str(i).zfill(4) + '_sync')
-
+    print(dirs)
     if os.path.exists(dirs):
         # check if the dir exists:
         save_label_dir = os.path.join(os.path.join(label_save_path, date), '2011_09_26_drive_' + str(i).zfill(4) + '_sync')
+        print(save_label_dir)
         if os.path.exists(save_label_dir):
             raise RuntimeError('Dir exists!')
         else:
